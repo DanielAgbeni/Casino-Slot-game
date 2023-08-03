@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎰Casino Roll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cash">$1000</div>
+    <div class="stake">$0</div>
+    <div class="bet">
+        <p class="msg">Stake between $10 and $100</p>
+        <input type="number" class="money">
+        <button class="btn">Stake</button>
+        <button class="retry hidden">Try Again</button>
+    </div>
+    <div class="game">
+            <div class="fruit0"></div>
+            <div class="fruit1"></div>
+            <div class="fruit2"></div>
+    </div>
+    <div class="win hidden">
+        <h1 class="text"></h1>
+        <button class="again">Play Again</button>
+    </div>
+    <button class="roll">Roll</button>
+    <div class="overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
